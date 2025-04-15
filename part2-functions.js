@@ -1,11 +1,34 @@
-function dogToHumanYears (dogAge) {
+//1. Dog Age Converter
 
-}
-
-function calculateTip (total, percentage) {
-
-}
-
-function checkEvenOdd (num) {
+function dogToHumanYears(dogAge) {
+    return dogAge * 7
+    }
+    let result = dogToHumanYears (5)
+    console.log("Dog years: ",result);
     
-}
+    
+    //new function
+    
+
+    function calculateTip(total, percentage) {
+    return total * percentage
+    }
+    let total = calculateTip(100, .18)
+    console.log(total);
+
+
+    // Even or Odd
+
+function checkEvenOdd(num) {
+    if (num % 2 === 0){
+        return true
+
+    }
+    else{
+        return false
+    }
+        
+    }
+    console.log(checkEvenOdd(8))
+    
+
